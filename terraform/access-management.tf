@@ -23,6 +23,28 @@ module "access-management" {
   }
 
   custom_fields = {
+    alternate_contact = jsonencode(
+      {
+        "billing"= {
+          "email-address" = "backslash.aws.access@nicoric.com",
+          "name"          = "Account Receiveable",
+          "phone-number"  = "+447956230952",
+          "title"         = "Billing Department"
+        },
+        "operations"= {
+          "email-address" = "backslash.aws.access@nicoric.com",
+          "name"          = "Operations 24/7",
+          "phone-number"  = "+447956230952",
+          "title"         = "DevOps Team"
+        },
+        "security"= {
+          "email-address" = "backslash.aws.access@nicoric.com",
+          "name"          = "Security Ops Center",
+          "phone-number"  = "+447956230952",
+          "title"         = "SOC Team"
+        }
+      }
+    )
     group = "prod"
     type = "prod"
   }
