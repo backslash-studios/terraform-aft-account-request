@@ -49,5 +49,5 @@ module "network-prod" {
     type = "prod"
   }
 
-  # account_customizations_name = "domain-management"
+  account_customizations_name = "sandbox"
 }
