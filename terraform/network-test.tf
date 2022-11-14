@@ -2,10 +2,10 @@ module "network-test" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "backslash.aws.network@nicoric.com"
+    AccountEmail              = "backslash.aws.network-test@nicoric.com"
     AccountName               = "network-test"
     ManagedOrganizationalUnit = "Infrastructure"
-    SSOUserEmail              = "backslash.aws.network@nicoric.com"
+    SSOUserEmail              = "backslash.aws.network-test@nicoric.com"
     SSOUserFirstName          = "network-test"
     SSOUserLastName           = "AFT"
   }
