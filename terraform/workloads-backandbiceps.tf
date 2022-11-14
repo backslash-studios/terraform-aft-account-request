@@ -2,10 +2,10 @@ module "backandbiceps-prod" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "backslash.aws.backandbiceps@nicoric.com"
+    AccountEmail              = "backslash.aws.backandbiceps-prod@nicoric.com"
     AccountName               = "backandbiceps-prod"
     ManagedOrganizationalUnit = "prod (ou-qihz-ma683dls)"
-    SSOUserEmail              = "backslash.aws.backandbiceps@nicoric.com"
+    SSOUserEmail              = "backslash.aws.backandbiceps-prod@nicoric.com"
     SSOUserFirstName          = "backandbiceps-prod"
     SSOUserLastName           = "AFT"
   }
@@ -35,10 +35,10 @@ module "backandbiceps-stag" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "backslash.aws.backandbiceps@nicoric.com"
+    AccountEmail              = "backslash.aws.backandbiceps-stag@nicoric.com"
     AccountName               = "backandbiceps-stag"
     ManagedOrganizationalUnit = "stag (ou-qihz-1mlaqz5l)"
-    SSOUserEmail              = "backslash.aws.backandbiceps@nicoric.com"
+    SSOUserEmail              = "backslash.aws.backandbiceps-stag@nicoric.com"
     SSOUserFirstName          = "backandbiceps-stag"
     SSOUserLastName           = "AFT"
   }
