@@ -4,7 +4,7 @@ module "backandbiceps-prod" {
   control_tower_parameters = {
     AccountEmail              = "backslash.aws.backandbiceps-prod@nicoric.com"
     AccountName               = "backandbiceps-prod"
-    ManagedOrganizationalUnit = "prod (ou-qihz-ma683dls)"
+    ManagedOrganizationalUnit = "prod (ou-qihz-ftswkaso)"
     SSOUserEmail              = "backslash.aws.backandbiceps-prod@nicoric.com"
     SSOUserFirstName          = "backandbiceps-prod"
     SSOUserLastName           = "AFT"
